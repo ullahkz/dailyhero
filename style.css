@@ -38,7 +38,7 @@ video {
   position: absolute;
   top: 40px;
   width: 200px;
-  filter: drop-shadow(0px 0px 5px rgba(245, 176, 38, 0.5));
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
 }
 
 .clock-widget {
@@ -233,8 +233,8 @@ text {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-clip: text;
-  background-image: linear-gradient(90deg, #d99a6c, #f57c20, #a0531b);
+  /* background-clip: text; */
+  /* background-image: linear-gradient(90deg, #d99a6c, #f57c20, #a0531b); */
 }
 #question h1 {
   font-size: 50px;
@@ -243,6 +243,10 @@ text {
   padding: 0;
   margin: 0;
   text-align: center;
-  color: transparent;
-  text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.7);
+  color: #b7b7b7; /*transparent;*/
+  /* text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.7); */
+}
+
+.slice {
+  opacity: 0.8;
 }

@@ -8,24 +8,43 @@ document.addEventListener("DOMContentLoaded", function () {
     picked = 100000,
     oldpick = [],
     //color = d3.scale.category20c();//category20c()
+    // color = [
+    //   "#FF8C00", // Dark Orange
+    //   "#FF4500", // Orange Red
+    //   "#D2691E", // Chocolate
+    //   "#8B4513", // Saddle Brown
+    //   "#CD853F", // Peru
+    //   "#A0522D", // Sienna
+    //   "#DEB887", // Burly Wood
+    //   "#F4A460", // Sandy Brown
+    //   "#FF6347", // Tomato
+    //   "#B22222", // Firebrick
+    //   "#DAA520", // Goldenrod
+    //   "#FFD700", // Gold
+    //   "#8B0000", // Dark Red
+    //   "#FFB6C1", // Light Pink (for softer autumn tones)
+    //   "#808000", // Olive
+    //   "#556B2F", // Dark Olive Green
+    // ];
     color = [
-      "#FF8C00", // Dark Orange
-      "#FF4500", // Orange Red
-      "#D2691E", // Chocolate
-      "#8B4513", // Saddle Brown
-      "#CD853F", // Peru
-      "#A0522D", // Sienna
-      "#DEB887", // Burly Wood
-      "#F4A460", // Sandy Brown
-      "#FF6347", // Tomato
-      "#B22222", // Firebrick
-      "#DAA520", // Goldenrod
-      "#FFD700", // Gold
-      "#8B0000", // Dark Red
-      "#FFB6C1", // Light Pink (for softer autumn tones)
-      "#808000", // Olive
-      "#556B2F", // Dark Olive Green
+      "#FF6F61", // Coral
+      "#6B5B95", // Royal Purple
+      "#88B04B", // Light Green
+      "#F7CAC9", // Light Pink
+      "#92A8D1", // Soft Blue
+      "#955251", // Wine
+      "#B565A7", // Plum
+      "#009B77", // Teal
+      "#DD4124", // Red
+      "#D65076", // Orchid
+      "#45B8AC", // Aqua
+      "#EFC050", // Golden
+      "#5B5EA6", // Indigo
+      "#9B2335", // Raspberry
+      "#DFCFBE", // Almond
+      "#BC243C", // Maroon
     ];
+
   //randomNumbers = getRandomNumbers();
   var data = [
     {
