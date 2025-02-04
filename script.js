@@ -44,9 +44,9 @@ document.addEventListener("DOMContentLoaded", function () {
       question: "<span>Today's daily Hero is<br/><br/>Jenny!!!</span>",
     },
     {
-      label: "Laura",
+      label: "Sabine",
       value: 4,
-      question: "<span>Today's daily Hero is<br/><br/>Laura!!!</span>",
+      question: "<span>Today's daily Hero is<br/><br/>Sabine!!!</span>",
     },
     {
       label: "Mira",
