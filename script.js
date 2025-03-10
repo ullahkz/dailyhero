@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //randomNumbers = getRandomNumbers();
     var data = [
                 {"label":"Gideon", "value":1, "question":"<span>Today's daily Hero is<br/><br/>Gideon!!!</span>"},
-                {"label":"Heidi", "value":2, "question":"<span>Today's daily Hero is<br/><br/>Heidi!!!</span>"},
+                {"label":"Sabine", "value":2, "question":"<span>Today's daily Hero is<br/><br/>Sabine!!!</span>"},
                 {"label":"Jenny", "value":3, "question":"<span>Today's daily Hero is<br/><br/>Jenny!!!</span>"},
                 {"label":"Laura", "value":4, "question":"<span>Today's daily Hero is<br/><br/>Laura!!!</span>"},
                 {"label":"Mira",  "value":5, "question":"<span>Today's daily Hero is<br/><br/>Mira!!!</span>"},
